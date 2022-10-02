@@ -1,0 +1,98 @@
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.wd-flex-parent-element{
+display: flex;
+}
+
+.wd-flex-parent-link{
+display: flex;
+justify-content : space-between;
+color: rgb(110, 118, 125);
+font-size: 15px;
+padding: 16px;
+text-decoration: none;
+margin-left:50px;
+border-bottom : 5px solid rgb(110, 118, 125);
+}
+
+#for-you-link{
+ color: rgb( 29,161,242);
+  border-bottom: 5px solid rgb( 29,161,242);
+}
+#search {
+    border-radius: 18px;
+    color : white;
+    background : #3A3B3C;
+    padding: 12px;
+    padding-left: 100px;
+    margin-left:50px;
+    width: 1200px;
+    height: 20px;
+    background: #3A3B3C url(search-icon.png) left no-repeat; padding-left: 17px;
+    border-
+}
+
+#gear {
+display : inline;
+width: 50px;
+height:  40px;
+margin-left: 50px;
+margin-right: 12px;
+#margin-top: 30px;
+}
+
+.wd-body {
+background-color : black;
+ border: solid  rgb(47, 51, 54);
+border-width: thin;
+display:block;
+box-sizing: border-box;
+}
+
+.wd-C1-p1 {
+font-size : 13px;
+color: rgb(110, 118, 125);
+margin-left: 50px;
+}
+
+.wd-C1-p2 {
+font-size : 15px;
+color: white;
+margin-left: 50px;
+}
+
+.wd-img {
+position : absolute;
+right : 16px;
+width : 100px;
+height: 100px;
+border-radius : 20%
+}
+
+.wd-e-container {
+display: flex;
+margin-left : 50px;
+}
+
+.wd-para {
+position : absolute;
+left : 55px;
+}
+
+.wd-search-bar {
+height : 100px;
+width : 100px;
+}
+
+input[type="text"]::placeholder {
+  position : absolute;
+  left : 50px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
