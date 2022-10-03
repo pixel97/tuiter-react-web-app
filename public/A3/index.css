@@ -196,6 +196,14 @@ p#id-selector-2 {
    background-color: red;
    color: white;
 }
+
+.rotate-counter-clockwise-list {
+   transform: rotate(-0.10turn);
+   width: 100px;
+   background-color: red;
+   color: white;
+}
+
 .rotate-list-items li {
    width: 100px;
    text-align: right;
@@ -236,19 +244,19 @@ p#id-selector-2 {
    color: white;
 }
 .gradients-linear {
- background: linear-gradient(yellow, red);
+ background: linear-gradient(green, red);
    width: 200px;
    height: 200px;
 }
 .gradients-radial {
- background: radial-gradient(yellow, green);
+ background: radial-gradient(white, pink);
  width: 200px;
  height: 200px;
 }
 .gradients-positioned {
  background:
   radial-gradient(
-   at top left, blue, red);
+   at top right, yellow, red);
  width: 200px;
  height: 200px;
  color: white;
@@ -256,6 +264,8 @@ p#id-selector-2 {
 .animation-keyframes {
    position: relative;
    top: 0px;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
    animation-duration: 7s;
    animation-name: slidein;
    width: 200px;
@@ -282,7 +292,7 @@ p#id-selector-2 {
           margin-left: 25%;
           width: 400px;
           height: 400px;
-          background-color: blue;
+          background-color: pink;
           color: white;
         }
 
@@ -300,7 +310,7 @@ p#id-selector-2 {
 
       .flex-container {
         border-width: 5px;
-        border-color: black;
+        border-color: green;
         border-style: solid;
       }
       .flex-box {
