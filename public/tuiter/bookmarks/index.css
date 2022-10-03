@@ -46,11 +46,11 @@
 .wd-content{
     color: white;
     font-size: 15px;
-    width: 506px;
+    max-width: 506px;
 }
 .wd-img{
     border-radius: 10px;
-    width: 504px;
+    max-width: 504px;
     height: 264px;
     margin-top:12px;
 }
