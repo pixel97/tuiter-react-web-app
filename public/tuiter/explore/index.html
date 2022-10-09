@@ -2,110 +2,252 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Explore feed</title>
-    <link href="index.css" rel="stylesheet"/>
+    <title>explore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <a href="https://getbootstrap.com/docs/5.1/components/list-group/#links-and-buttons"></a>
+    <a href="https://getbootstrap.com/docs/5.1/components/navs-tabs/"></a>
+    <a href="https://getbootstrap.com/docs/5.1/components/list-group/"></a>
+    <link href="index.css" rel="stylesheet">
 </head>
-<body class = "wd-body">
-// A - Search bar
-<div class="wd-flex-parent-element">
-    <div>
-        <input type = "text"  id = "search" placeholder = "Search Tuiter">
-    </div>
-    <div>
-        <a  href="explore-settings.html"><img id = "gear" alt="Settings" src="gear-icon.png"></a>
-    </div>
-</div>
+<body>
+<div class = "container">
+<div class="row">
+    <div class="col-1 col-sm-2 col-md-3 col-lg-1 col-xl-2 col-md-xxl-2 mt-2 offset-xxl-0.5 bg-white text-white">
 
-// B - Set of links
-<div class = "wd-flex-parent-link">
-    <div class>
-        <a id = "for-you-link" href = "https://www.qries.com/">For you</a>
-    </div>
-    <div class>
-        <a href = "https://www.qries.com/">Trending</a>
-    </div>
-    <div class>
-        <a href = "https://www.qries.com/">COVID-19</a>
-    </div>
-    <div class>
-        <a href = "https://www.qries.com/">News</a>
-    </div>
-    <div class>
-        <a href = "https://www.qries.com/">Sports</a>
-    </div>
-    <div class>
-        <a href = "https://www.qries.com/">Entertainment</a>
-    </div>
-</div>
+        <div class="list-group mt-2">
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fas fa-tenge" style='font-size:15px;color: black'></i></a>
 
-// C - Tuit 1
-<div>
-    <p class = "wd-C1-p1">Sports Trending</p>
-    <p class = "wd-C1-p2">Roger Federer</p>
-    <p class = "wd-C1-p1">7.11k  Tweets</p>
-</div>
+            <div class="list-group-item">
+                <div class="row">
+                    <i class="fa fa-home col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Home</span></div>
+                </div>
+            </div>
 
-// E -
-<div>
-<p class = "wd-C1-p1">SOCCER: LIVE</p>
-<div class = "wd-e-container">
-    <div class = "wd-C1-p2">
-        <p class = "wd-para">EXPLAINER: What’s behind Indonesia’s deadly soccer match?</p>
-    </div>
-    <div>
-        <img class = "wd-img" src = "soccer.jpg"></img>
-    </div>
-    <br>
-    <br>
-    <br>
-</div>
-</div>
-<br>
-<div>
-<p class = "wd-C1-p1">WEATHER: LIVE</p>
-<div class = "wd-e-container">
-    <div class = "wd-C1-p2">
-        <p class = "wd-para">Cat. 3 Hurricane Orlene heads for Mexico’s Pacific coast</p>
-    </div>
-    <img class = "wd-img" src = "weather.jfif">
-    <br>
-    <br>
-    <br>
-</div>
-</div>
-// D
-<div>
-    <p class = "wd-C1-p1">CNN News . Today</p>
-    <div class = "wd-e-container">
-        <div class = "wd-C1-p2">
-            <p class = "wd-para">Nobel season is here: 5 things to know about the prizes</p>
+
+            <a href="#" class="list-group-item list-group-item-action active">
+                <div class="row">
+                    <i class="fa fa-hashtag col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Explore</span></div>
+                </div></a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="row">
+                    <i class="fa fa-bell col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Notifications</span></div>
+                </div></a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="row">
+                    <i class="fa fa-envelope col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Messages</span></div>
+                </div></a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="row">
+                    <i class="fa fa-bookmark col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Bookmarks</span></div>
+                </div></a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="row">
+                    <i class="fa fa-list col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Lists</span></div>
+                </div></a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="row">
+                    <i class="fa fa-user col-xxl-2 col-xl-2"></i>
+                    <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span>Profile</span></div>
+                </div></a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class='fas fa-info-circle'></i>
+                <span class="position-absolute d-none d-xl-block" style="left: 35px; top: 11px">More</span></a>
         </div>
-        <div>
-            <img class = "wd-img" src = "nobel.jfif"></img>
+        <div class = "mt-2">
+            <button type="button" class="btn btn-primary w-100 rounded-pill">Tweet</button>
         </div>
-        <br>
-        <br>
-        <br>
-    </div>
-</div>
-<br>
-<div>
-<p class = "wd-C1-p1">Bloomberg's Top</p>
-<div class = "wd-e-container">
-    <div class = "wd-C1-p2">
-        <p class = "wd-para">Hermes unveils its Paris show, as Ukraine’s designers unite</p>
-    </div>
-    <img class = "wd-img" src = "fashionn.webp">
-    <br>
-    <br>
-    <br>
-</div>
-</div>
 
-<div>
-    <p class = "wd-C1-p1">Trending in Science</p>
-    <p class = "wd-C1-p2">NASA</p>
-    <p class = "wd-C1-p1">20.11k  Tweets</p>
+    </div>
+
+    <!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <div class="col-6 col-sm-10 col-md-9 col-lg-7 col-xl-7 col-md-xxl-6 mt-2 offset-xxl-0.5 bg-white text-white">
+
+        <div class = "row">
+            <div class = "col-11 mt-2">
+                <div class = "position-relative">
+                    <input class="button-round form-control rounded-pill ps-4" placeholder="Search Twitter"/>
+                    <span class="position-absolute" style="color:black; top:18%">O-</span>
+                </div>
+            </div>
+            <div class = "col-1 mt-2">
+                <i class="fas fa-cog" style="font-size:20px; color:blue"></i>
+            </div>
+        </div>
+
+        <div class = "mt-2">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                   <div class = "d-none d-md-block"><a class="nav-link" href="#">Entertainment</a></div>
+                </li>
+            </ul>
+        </div>
+
+        <div class = " position-relative mt-2 mr-2">
+          <img src = "starship.jpg" alt="Starship Image" class = "img-responsive" style="width:100%; overflow:hidden;";>
+        <h2 class = "position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h2>
+
+        </div>
+
+        <div class = "mt-2">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class = "row">
+                    <div class = "col-10">
+                    <p style = "color:gray; font-size:12px; margin-bottom:0;">Web Development</p>
+                    <p style = "font-weight:bold; margin-bottom:0;">React JS
+                    <i class = "fas fa-check-circle"></i>
+                    <span style = "display:inline; font-weight:normal;">-2h</span>
+                    </p>
+                    <p style = "font-weight:bold; margin-bottom:0;">React JS is a component based front end library that makes it very easy to build Single Page Applications or SPAs</p>
+                    </div>
+                    <div class = "col-2">
+                    <img src = "react.png" style = "width:100%; height:100%; display:inline; float:right;">
+                    </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class = "row">
+                        <div class = "col-10">
+                            <p style = "font-weight:bold; margin-bottom:0;">Java Script
+                                <i class = "fas fa-check-circle"></i>
+                                <span style = "display:inline; font-weight:normal;">-2h</span>
+                            </p>
+                            <p style = "font-weight:bold; margin-bottom:0;">JavaScript is programming language that you can run on browsers as well as desktops</p>
+                            <p style = "color:gray; font-size:12px; margin-bottom:0;">123K Tweets</p>
+                        </div>
+                        <div class = "col-2">
+                            <img src = "js.jpg" style = "width:100%; height:100%; display:inline; float:right;">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class = "row">
+                        <div class = "col-10">
+                            <p style = "color:gray; font-size:12px; margin-bottom:0;">Web Development</p>
+                            <p style = "font-weight:bold; margin-bottom:0;">jQuery</p>
+                            <p style = "color:gray; font-size:12px; margin-bottom:0;">123K Tweets</p>
+                        </div>
+                        <div class = "col-2">
+                            <img src = "jQuery.png" style = "width:100%; height:100%; display:inline; float:right;">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class = "row">
+                        <div class = "col-10">
+                            <p style = "color:gray; font-size:12px; margin-bottom:0;">Web Development</p>
+                            <p style = "font-weight:bold; margin-bottom:0;">Node JS
+                                <i class = "fas fa-check-circle"></i>
+                                <span style = "display:inline; font-weight:normal;">-2h</span>
+                            </p>
+                        </div>
+                        <div class = "col-2">
+                            <img src = "nodejs.webp" style = "width:100%; height:100%; display:inline; float:right;">
+                        </div>
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="col-0 col-sm-0 col-md-0 col-lg-4 col-xl-3 col-md-xxl-4 mt-2 offset-xxl-0.5ye bg-white d-none d-lg-block">
+
+        <ul class="list-group">
+            <li class="list-group-item" style = "font-weight:bold;">Who to follow</li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class = "col-2">
+                        <img src = "java.jpg" style="width:50px; height:50px; border-radius:50%;margin-right:0;">
+                    </div>
+                    <div class = "col-6">
+                        <p style="font-weight:bold; display:inline; margin-left:10px;">
+                        Java
+                        <i class = "fas fa-check-circle"></i></p>
+                        <p style="color:gray; margin-left:10px;">@java</p>
+                    </div>
+                    <div class = "col-4">
+                        <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class = "col-2">
+                        <img src = "relativity.png" style="width:50px; height:50px; border-radius:50%;margin-right:0;">
+                    </div>
+                    <div class = "col-6">
+                        <p style="font-weight:bold; display:inline; margin-left:10px; white-space: nowrap;">
+                            Relativity Space
+                            <i class = "fas fa-check-circle"></i></p>
+                        <p style="color:gray; margin-left:10px;">@relativityspace</p>
+                    </div>
+                    <div class = "col-4">
+                        <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class = "col-2">
+                        <img src = "nasa.jpg" style="width:50px; height:50px; border-radius:50%;margin-right:0;">
+                    </div>
+                    <div class = "col-6">
+                        <p style="font-weight:bold; display:inline; margin-left:10px;">
+                            NASA
+                            <i class = "fas fa-check-circle"></i></p>
+                        <p style="color:gray; margin-left:10px;">@nasa</p>
+                    </div>
+                    <div class = "col-4">
+                        <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class = "row">
+                    <div class = "col-2">
+                        <img src = "tesla.png" style="width:50px; height:50px; border-radius:50%;margin-right:0;">
+                    </div>
+                    <div class = "col-6">
+                        <p style="font-weight:bold; display:inline; margin-left:10px;">
+                            Tesla
+                            <i class = "fas fa-check-circle"></i></p>
+                        <p style="color:gray; margin-left:10px;">@Tesla</p>
+                    </div>
+                    <div class = "col-4">
+                        <button type="button" class="btn btn-primary rounded-pill">Follow</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
 </div>
 </body>
 </html>
