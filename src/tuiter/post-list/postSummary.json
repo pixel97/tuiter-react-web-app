@@ -1,0 +1,38 @@
+[
+  {
+    "id": 123,
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "23h",
+    "tuit": "Dennis and Akiko Tito are the first two crew members on Starship's second commercial spaceflight around the Moon",
+    "link": "spacex.com/updates",
+    "icon": "././img/spacexLogo.jpg",
+    "image": "././img/customers.jpg",
+    "subuserName": "",
+    "subhandle": "",
+    "subtime": "",
+    "subicon": "",
+    "subtuit": "",
+    "comment": "42k",
+    "tuits": "4.3k",
+    "likes": "200"
+  },
+  {
+    "id": 234,
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "15h",
+    "tuit": "We might need a different name, as this is basically just Starlink with roaming capability so you can take your terminal everywhere.",
+    "link": "",
+    "icon": "././img/starshipLogos.jpg",
+    "image": "",
+    "subuserName": "SpaceX",
+    "subhandle": "SpaceX",
+    "subtime": "15h",
+    "subicon": "",
+    "subtuit": "Starlink for RV's now has over 100,000 customers! Access high-speed, low latency internet on an as-needed basis anywhere Starlink provides active coverage",
+    "comment": "42k",
+    "tuits": "4.3k",
+    "likes": "200"
+  }
+]
