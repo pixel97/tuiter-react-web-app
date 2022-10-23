@@ -35,7 +35,7 @@ Items = {
                             <span style = {{display:"inline", fontWeight:"normal", fontSize:"12px"}}>-{Items.time}</span>
                             </span></p>
                             <p>{Items.tuit} <span style = {{color:"blue"}}>{Items.link}</span></p>
-                            
+
                             <img src={Items.image} style = {{height:"60%",width:"100%", borderRadius:"3%"}}/>
                             <div className = "row justify-content-start">
                                 <div className = "col-3" style = {{color:"gray"}}>
