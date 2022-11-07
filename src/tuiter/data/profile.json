@@ -1,0 +1,13 @@
+{
+  "firstName": "Anushka",
+  "lastName": "Jain",
+  "handle": "@AJ",
+  "profilePicture": "../../images/ProfilePic1.jpg",
+  "bannerPicture": "../../images/banner1.jpg",
+  "bio": "Inspired by the way how technologies are solving real world problems, continuously motivated to learn sophisticated technologies and apply them to solve real world problems. Interested in Software development,Game development, Machine Learning, Android application development,Web development.",
+  "location": "Boston, MA",
+  "dateOfBirth": "2/12/1997",
+  "dateJoined": "3/2019",
+  "followingCount": 500,
+  "followersCount": 180
+}

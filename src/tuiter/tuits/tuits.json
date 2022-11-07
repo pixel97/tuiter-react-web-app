@@ -8,14 +8,10 @@
     "link": "spacex.com/updates",
     "icon": "../../images/spacexLogo.jpg",
     "image": "../../images/customers.jpg",
-    "subuserName": "",
-    "subhandle": "",
-    "subtime": "",
-    "subicon": "",
-    "subtuit": "",
-    "comment": "42k",
-    "tuits": "4.3k",
-    "likes": "200"
+    "replies": "42k",
+    "retuits": "4.3k",
+    "likes": "200",
+    "liked": true
   },
   {
     "id": 234,
@@ -26,13 +22,9 @@
     "link": "",
     "icon": "../../images/starshipLogos.jpg",
     "image": "../../images/starshipLogos.jpg",
-    "subuserName": "SpaceX",
-    "subhandle": "SpaceX",
-    "subtime": "15h",
-    "subicon": "",
-    "subtuit": "Starlink for RV's now has over 100,000 customers! Access high-speed, low latency internet on an as-needed basis anywhere Starlink provides active coverage",
-    "comment": "42k",
-    "tuits": "4.3k",
-    "likes": "200"
+    "replies": "15k",
+    "retuits": "4.3k",
+    "likes": "150",
+    "liked": false
   }
 ]
