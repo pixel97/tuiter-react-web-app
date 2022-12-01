@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 //import hometuits from "../tuits/tuits.json";
 import { updateTuitThunk } from "../../services/tuits-thunks";
 const TuitStats = (
   { tuit } /*{
+
   tuitstat = { replies: 200, retuits: 400, likes: "4k", liked: true },
 }*/
 ) => {
+  console.log("Tuit details " + JSON.stringify(tuit));
   const dispatch = useDispatch();
+  const [isLiked, setIsLiked] = useState(tuit.liked);
 
   const onClickHandler = () => {
+    setIsLiked(true);
     console.log("Heart Clicked");
     dispatch(
       updateTuitThunk({
@@ -43,7 +47,9 @@ const TuitStats = (
           Likes: {tuit.likes}
           <i
             onClick={onClickHandler}
-            className="bi bi-heart-fill me-2 text-danger"
+            className={`bi bi-${
+              isLiked ? "heart-fill me-2 text-danger" : "suit-heart"
+            }`}
           ></i>
         </div>
       </div>

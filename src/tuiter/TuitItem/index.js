@@ -19,7 +19,7 @@ const PostListItem = ({ tuits }) => {
         <div className="col-1">
           {tuits.icon && (
             <img
-              src={tuits.icon}
+              src={`/images/${tuits.icon}`}
               style={{ borderRadius: "50%", height: "50px", width: "50px" }}
             />
           )}
@@ -39,7 +39,7 @@ const PostListItem = ({ tuits }) => {
             <i className="fa fa-check-circle" style={{ color: "blue" }}></i>
             &nbsp;
             <span style={{ marginBottom: 0, color: "gray", fontSize: "12px" }}>
-              @{tuits.handle}&nbsp;
+              {tuits.handle}&nbsp;
               <span
                 style={{
                   display: "inline",
@@ -65,7 +65,7 @@ const PostListItem = ({ tuits }) => {
 
           {tuits.image && (
             <img
-              src={tuits.image}
+              src={`/images/${tuits.image}`}
               style={{ height: "60%", width: "100%", borderRadius: "3%" }}
             />
           )}
